@@ -8,6 +8,7 @@
     display : flex;
     justify-content: space-between;
     align-items: center;
+    margin:0px 200px;
  }
  /* for mary-r */
  .primary-color{
@@ -41,4 +42,17 @@ nav a{
     font-size: 20px;
    font-weight: 700;
    padding:18px 35px;
+}
+/* header related class */
+.header{
+    background-color: #FFF8F3;
+}
+/* we made 2 child in class banner  and after adding display:flex we got those child(img and text)side by side */
+.banner{
+    padding: 30px 30px 30px 150px;
+    display:flex;
+    align-items: center;
+}
+.banner.profile-pic{
+    width:500px;
 }
